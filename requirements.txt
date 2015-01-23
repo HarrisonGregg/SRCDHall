@@ -1,0 +1,8 @@
+Flask==0.9
+Flask-Cors==1.10.1
+Jinja2==2.6
+Werkzeug==0.8.3
+gunicorn==0.17.2
+pymongo==2.7.2
+exrex==0.9.3
+naiveBayesClassifier==0.1.3

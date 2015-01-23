@@ -1,0 +1,24 @@
+<html>
+    <head >
+        <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+        <title >SRCDHall</title>
+ 	    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+	<body>
+		<script type="text/javascript" src="{{ url_for('static', filename='mespeak.js') }}"></script>
+		<script type="text/javascript" src="{{ url_for('static', filename='script.js') }}"></script>
+		<table style="width:100%; max-width:600px; height:100%">
+		  <tr><td style="width:100%; height:100px;">
+			<input type="submit" id="startDialogue" value="Start Dialogue" onclick="startDialogue()" style="width:100%; height:100%;">	  	
+		  </td></tr>
+		  <tr style="overflow:scroll"><td>
+			<table id="chatTable" style="width:100%">
+			  <tr><td>
+				<input type="submit" id="button" value="Start Dialogue" onclick="onButtonClick()">
+			  </td></tr>	  	
+			</table>
+			<p id="listening" style="visibility:hidden;">listening...</p> 
+		  </td></tr>
+		</table>
+	</body>
+</html>
